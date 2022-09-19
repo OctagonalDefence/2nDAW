@@ -39,6 +39,6 @@ function rotar (String $b) {
 
 echo decrypt1($sp);
 echo '<xmp></xmp>'
-echo decrypt($mr);
+echo decrypt1($mr);
 
  ?>
