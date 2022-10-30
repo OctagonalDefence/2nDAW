@@ -1,0 +1,42 @@
+{
+    "eee@gmail.com": {
+        "nom": "eee",
+        "correu": "eee@@gmail.com",
+        "password": "eee"
+    },
+    "eric@gmail.com": {
+        "Nom": "eric",
+        "Correu": "eric@gmail.com",
+        "Contrassenya": "eric"
+    },
+    "aaaa@aaaa": {
+        "Nom": "aaaa",
+        "Correu": "aaaa@aaaa",
+        "Contrassenya": "aaaa"
+    },
+    "eric@e": {
+        "Nom": "eric",
+        "Correu": "eric@e",
+        "Contrassenya": "eric"
+    },
+    "eric2@e": {
+        "Nom": "eric2",
+        "Correu": "eric2@e",
+        "Contrassenya": "eric"
+    },
+    "p@p": {
+        "Nom": "provafinal",
+        "Correu": "p@p",
+        "Contrassenya": "prova"
+    },
+    "eric3@g": {
+        "Nom": "eric3",
+        "Correu": "eric3@g",
+        "Contrassenya": "eric3"
+    },
+    "trot@t": {
+        "Nom": "trot",
+        "Correu": "trot@t",
+        "Contrassenya": "ttt"
+    }
+}
