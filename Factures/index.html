@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js.js"></script>
+  </head>
+  <body>
+      <form id="form" onsubmit="return false">
+        <input type="number" id="afegirQuantitat" min="1" value="1" required/>
+        <input list="afegirItems" id="afegirItem" required/>
+        <datalist id="afegirItems"></datalist>
+        <input type="number" id="afegirPreu" min="0.00" step="0.01" value="0.01" required/>
+        <button id="afegirBoto" type="submit">
+          <span class="mi">Afegir</span>
+        </button>
+      </form>
+    </div>
+
+    <div id="bottom">
+      <div id="bottomA">
+        <div id="totalA">$ <span id="totalB">0</span></div>
+        <button id="imprimir" type="button">
+          <span class="mi">Imprimir</span>
+        </button>
+      </div>
+
+    <div id="items"></div>
+  </body>
+</html>
