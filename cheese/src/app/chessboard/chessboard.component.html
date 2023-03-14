@@ -1,0 +1,16 @@
+<ul id="chessboard">
+    <li *ngFor="let tileRow of chessBoard">
+        <ul class="row">
+            <li *ngFor="let tile of tileRow">
+                <div class="tile"
+                [class.selected]="tile===selectedTile"
+                [class.legalMove]="legalMoves.indexOf(tile)>-1"
+                [style.top]="getVerticalShift(tile)"
+                [style.left]="getHorizontalShift(tile)"
+                (click)="onSelect(tile)">
+                    {{getChessPiece(tile)}}
+                </div>
+            </li>
+        </ul>
+    </li>
+</ul>

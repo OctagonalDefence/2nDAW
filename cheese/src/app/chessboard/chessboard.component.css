@@ -1,0 +1,23 @@
+#chessboard {
+    list-style-type: none;
+}
+
+.row {
+    list-style-type: none;
+}
+
+.tile {
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    position: absolute;
+    text-align: center;
+}
+
+.tile.selected {
+    background-color: green;
+}
+
+.tile.legalMove {
+    background-color: yellow;
+}
